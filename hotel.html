@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!-- header section starts -->
+    <section class="header">
+        <a href="home.html" class="logo">travel.</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="service.html">service</a>
+            <a href="book.html">book</a>
+        </nav>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </section>
+    <!-- header section ends -->
+
+
+    <!-- <div class="heading" style="background:url(./images/header-bg-1.png) no-repeat">
+        <h1>hotel</h1>
+    </div> -->
+
+
+
+    <!-- hotel section starts -->
+    <section class="room">
+
+        <div class="swiper room-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(./images/room-1.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top accommodation</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/room-2.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top accommodation</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/room-3.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top accommodation</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/room-4.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top accommodation</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/room-5.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top accommodation</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- hotel section ends -->
+
+
+
+    <!-- search section starts -->
+    <section class="search">
+        <h1 class="heading-title">search your room!</h1>
+        <form action="hotelsearch.php" method="post" class="search-form">
+            <div class="flex">
+
+                <div class="inputBox">
+                    <span>location</span>
+                    <!-- <input type="text" placeholder="enter your destination" name="destination"> -->
+                    <select name="city" required>
+                        <option disabled value="" selected hidden>Select Your Interested City</option>
+                        <option value="New York">New York</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Houston">Houston</option>
+                        <option value="Phoenix">Phoenix</option>
+                        <option value="Philadelphia">Philadelphia</option>
+                        <option value="San Antonio">San Antonio</option>
+                        <option value="San Diego">San Diego</option>
+                        <option value="Dallas">Dallas</option>
+                        <option value="San Jose">San Jose</option>
+                    </select>
+                </div>
+
+                <div class="inputBox">
+                    <span>guests</span>
+                    <input type="number" placeholder="enter guests number" name="guests" required>
+                </div>
+
+                <!-- <div class="inputBox">
+                    <span>arrivals</span>
+                    <input type="date" placeholder="enter your arrivals" name="arrivals">
+                </div>
+
+                <div class="inputBox">
+                    <span>leaving</span>
+                    <input type="date" placeholder="enter your leaving" name="leaving">
+                </div>
+
+                <div class="inputBox">
+                    <span>guests</span>
+                    <input type="text" placeholder="enter guests number" name="guests">
+                </div> -->
+
+                <!-- <div class="inputBox">
+                    <span>hotel brand</span>
+                    <input type="text" placeholder="enter expected hotel star" name="hotelstar">
+                </div> -->
+
+                <!-- <div class="inputBox">
+                    <span>price/night$</span>
+                    <input type="text" placeholder="enter expected price" name="price">
+                </div> -->
+
+            </div>
+
+            <input type="submit" value="submit" class="btn" name="search">
+        </form>
+    </section>
+
+    <!-- search section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i>home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i>about</a>
+                <a href="service.html"><i class="fas fa-angle-right"></i>service</a>
+                <a href="book.html"><i class="fas fa-angle-right"></i>book</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>ask questions</a>
+                <a href="#"><i class="fas fa-angle-right"></i>about us</a>
+                <a href="#"><i class="fas fa-angle-right"></i>privacy policy</a>
+                <a href="#"><i class="fas fa-angle-right"></i>terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#"><i class="fas fa-phone"></i>+111-222-3333</a>
+                <a href="#"><i class="fas fa-envelope"></i>informatics@gmail.com</a>
+                <a href="#"><i class="fas fa-map"></i>dublin, ireland - d04</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuttle</title>
+
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!-- header section starts -->
+    <section class="header">
+        <a href="home.html" class="logo">travel.</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="service.html">service</a>
+            <a href="book.html">book</a>
+        </nav>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </section>
+    <!-- header section ends -->
+
+
+
+
+    <!-- shuttle section starts -->
+    <section class="shuttle">
+
+        <div class="swiper shuttle-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(./images/shuttle-1.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top shuttle</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/shuttle-2.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top shuttle</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/shuttle-3.jpg) no-repeat">
+                    <div class="content">
+                        <h3>top shuttle</h3>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- shuttle section ends -->
+
+
+
+
+
+
+
+
+
+    <!-- search section starts -->
+    <section class="flightsearch">
+        <h1 class="heading-title">search your shuttle!</h1>
+        <form action="shuttlesearch.php" method="post" class="search-form">
+            <div class="flex">
+
+                <div class="inputBox">
+                    <span>airport</span>
+                    <select name="airport" required>
+                        <option disabled value="" selected hidden>Select Your Landing/Arriving Airport</option>
+                        <option value="JFK">John F.Kennedy International Airport</option>
+                        <option value="LAX">Los Angeles International Airport</option>
+                        <option value="ORD">O'Hare International Airport</option>
+                        <option value="IAH">George Bush Intercontinental Airport</option>
+                        <option value="PHX">Phoenix Sky Harbor International Airport</option>
+                    </select>
+                </div>
+
+                <div class="inputBox">
+                    <span>drop-off location</span>
+                    <select name="drop-off" required>
+                        <option disabled value="" selected hidden>Select Your drop-off location</option>
+                        <option value="one">exit 1</option>
+                        <option value="two">exit 2</option>
+                        <option value="three">exit 3</option>
+                        <option value="four">exit 4</option>
+                        <option value="five">exit 5</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <input type="submit" value="search" class="btn" name="search">
+        </form>
+    </section>
+    <!-- search section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i>home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i>about</a>
+                <a href="service.html"><i class="fas fa-angle-right"></i>service</a>
+                <a href="book.html"><i class="fas fa-angle-right"></i>book</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>ask questions</a>
+                <a href="#"><i class="fas fa-angle-right"></i>about us</a>
+                <a href="#"><i class="fas fa-angle-right"></i>privacy policy</a>
+                <a href="#"><i class="fas fa-angle-right"></i>terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#"><i class="fas fa-phone"></i>+111-222-3333</a>
+                <a href="#"><i class="fas fa-envelope"></i>informatics@gmail.com</a>
+                <a href="#"><i class="fas fa-map"></i>dublin, ireland - d04</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
