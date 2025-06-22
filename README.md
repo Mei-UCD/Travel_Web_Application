@@ -1,5 +1,5 @@
 # Travel Website
-link: https://meiyuan.infinityfreeapp.com/__
+link: https://meiyuan.infinityfreeapp.com\
 Developed a webpage that allows users to look for accommodation, flights, shuttles, and travel plans.
 ![localhost_Project_Mei_home html1](https://github.com/Jane50/Travel_Web_Application/assets/102959995/7edca46d-81cd-45b7-9f98-58e1fbad9f8c)
 ![localhost_Project_Mei_about html](https://github.com/Jane50/Travel_Web_Application/assets/102959995/9b6bcd4e-5aac-41b5-8992-bac8fad4756c)
